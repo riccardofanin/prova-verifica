@@ -36,13 +36,14 @@ namespace esProvaVerifica
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.cbSigla = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.cbCantanti = new System.Windows.Forms.ComboBox();
+            this.tbNome = new System.Windows.Forms.TextBox();
             this.tbGenere = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.tbNaz = new System.Windows.Forms.TextBox();
             this.tbNome1 = new System.Windows.Forms.TextBox();
             this.tbNome2 = new System.Windows.Forms.TextBox();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -107,20 +108,20 @@ namespace esProvaVerifica
             this.cbSigla.Size = new System.Drawing.Size(156, 21);
             this.cbSigla.TabIndex = 6;
             // 
-            // comboBox2
+            // cbCantanti
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(134, 136);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(156, 21);
-            this.comboBox2.TabIndex = 7;
+            this.cbCantanti.FormattingEnabled = true;
+            this.cbCantanti.Location = new System.Drawing.Point(134, 136);
+            this.cbCantanti.Name = "cbCantanti";
+            this.cbCantanti.Size = new System.Drawing.Size(156, 21);
+            this.cbCantanti.TabIndex = 7;
             // 
-            // textBox1
+            // tbNome
             // 
-            this.textBox1.Location = new System.Drawing.Point(134, 177);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(155, 20);
-            this.textBox1.TabIndex = 8;
+            this.tbNome.Location = new System.Drawing.Point(134, 177);
+            this.tbNome.Name = "tbNome";
+            this.tbNome.Size = new System.Drawing.Size(155, 20);
+            this.tbNome.TabIndex = 8;
             // 
             // tbGenere
             // 
@@ -129,12 +130,12 @@ namespace esProvaVerifica
             this.tbGenere.Size = new System.Drawing.Size(155, 20);
             this.tbGenere.TabIndex = 9;
             // 
-            // textBox3
+            // tbNaz
             // 
-            this.textBox3.Location = new System.Drawing.Point(134, 225);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(155, 20);
-            this.textBox3.TabIndex = 10;
+            this.tbNaz.Location = new System.Drawing.Point(134, 225);
+            this.tbNaz.Name = "tbNaz";
+            this.tbNaz.Size = new System.Drawing.Size(155, 20);
+            this.tbNaz.TabIndex = 10;
             // 
             // tbNome1
             // 
@@ -158,18 +159,29 @@ namespace esProvaVerifica
             this.richTextBox1.TabIndex = 13;
             this.richTextBox1.Text = "";
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(99, 369);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(177, 46);
+            this.button1.TabIndex = 14;
+            this.button1.Text = "Esercizio 2";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.tbNome2);
             this.Controls.Add(this.tbNome1);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.tbNaz);
             this.Controls.Add(this.tbGenere);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.comboBox2);
+            this.Controls.Add(this.tbNome);
+            this.Controls.Add(this.cbCantanti);
             this.Controls.Add(this.cbSigla);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label6);
@@ -194,13 +206,14 @@ namespace esProvaVerifica
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.ComboBox cbSigla;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.ComboBox cbCantanti;
+        private System.Windows.Forms.TextBox tbNome;
         private System.Windows.Forms.TextBox tbGenere;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox tbNaz;
         private System.Windows.Forms.TextBox tbNome1;
         private System.Windows.Forms.TextBox tbNome2;
         private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.Button button1;
     }
 }
 

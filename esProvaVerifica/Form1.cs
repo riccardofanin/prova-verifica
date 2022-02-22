@@ -1,8 +1,10 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -14,13 +16,11 @@ namespace esProvaVerifica
     {
         class Cantante
         {
-            public Cantante(string id, string nomeCompleto, string nomeArte, string nazionalita, List<Canzone> listCanzoni)
+            public Cantante(string nomeCompleto, string nomeArte, string nazionalita)
             {
-                Id = id;
                 NomeCompleto = nomeCompleto;
                 NomeArte = nomeArte;
                 Nazionalita = nazionalita;
-                ListCanzoni = listCanzoni;
             }
 
             public string Id { get; set; }
@@ -72,6 +72,16 @@ namespace esProvaVerifica
             generes.Add(new GenereMusica("HP", "Hip Pop"));
             generes.Add(new GenereMusica("JZ", "Jazz"));
 
+            string json = JsonConvert.SerializeObject(generes, Formatting.Indented);
+            richTextBox1.Text = json;
+
+            List<Cantante> cantanti = new List<Cantante>();
+            cantanti.Add(new Cantante("Cantante1", "1", "UK"));
+            cantanti.Add(new Cantante("Cantante2", "2", "ITA"));
+            cantanti.Add(new Cantante("Cantante3", "3", "SPA"));
+
+
+
             BindingSource listGeneri = new BindingSource();
             listGeneri.DataSource = generes;
 
@@ -79,6 +89,19 @@ namespace esProvaVerifica
             cbSigla.DisplayMember = "Sigla";
 
             tbGenere.DataBindings.Add("Text", listGeneri, "NomeGenere");
+
+            BindingSource listCantanti = new BindingSource();
+            listCantanti.DataSource = cantanti;
+
+            cbCantanti.DataSource = listCantanti;
+            cbCantanti.DisplayMember = "NomeCompleto";
+
+            tbNome.DataBindings.Add("Text", listCantanti, "NomeArte");
+            tbNaz.DataBindings.Add("Text", listCantanti, "Nazionalita");
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
 
         }
     }

@@ -8,3 +8,16 @@ C:\Users\6189986\source\repos\esProvaVerifica\esProvaVerifica\obj\Debug\esProvaV
 C:\Users\6189986\source\repos\esProvaVerifica\esProvaVerifica\obj\Debug\esProvaVerifica.csproj.CoreCompileInputs.cache
 C:\Users\6189986\source\repos\esProvaVerifica\esProvaVerifica\obj\Debug\esProvaVerifica.exe
 C:\Users\6189986\source\repos\esProvaVerifica\esProvaVerifica\obj\Debug\esProvaVerifica.pdb
+C:\Users\6189986\Desktop\esProvaVerifica\prova-verifica\esProvaVerifica\bin\Debug\esProvaVerifica.exe.config
+C:\Users\6189986\Desktop\esProvaVerifica\prova-verifica\esProvaVerifica\bin\Debug\esProvaVerifica.exe
+C:\Users\6189986\Desktop\esProvaVerifica\prova-verifica\esProvaVerifica\bin\Debug\esProvaVerifica.pdb
+C:\Users\6189986\Desktop\esProvaVerifica\prova-verifica\esProvaVerifica\obj\Debug\esProvaVerifica.csproj.AssemblyReference.cache
+C:\Users\6189986\Desktop\esProvaVerifica\prova-verifica\esProvaVerifica\obj\Debug\esProvaVerifica.Form1.resources
+C:\Users\6189986\Desktop\esProvaVerifica\prova-verifica\esProvaVerifica\obj\Debug\esProvaVerifica.Properties.Resources.resources
+C:\Users\6189986\Desktop\esProvaVerifica\prova-verifica\esProvaVerifica\obj\Debug\esProvaVerifica.csproj.GenerateResource.cache
+C:\Users\6189986\Desktop\esProvaVerifica\prova-verifica\esProvaVerifica\obj\Debug\esProvaVerifica.csproj.CoreCompileInputs.cache
+C:\Users\6189986\Desktop\esProvaVerifica\prova-verifica\esProvaVerifica\obj\Debug\esProvaVerifica.exe
+C:\Users\6189986\Desktop\esProvaVerifica\prova-verifica\esProvaVerifica\obj\Debug\esProvaVerifica.pdb
+C:\Users\6189986\Desktop\esProvaVerifica\prova-verifica\esProvaVerifica\bin\Debug\Newtonsoft.Json.dll
+C:\Users\6189986\Desktop\esProvaVerifica\prova-verifica\esProvaVerifica\bin\Debug\Newtonsoft.Json.xml
+C:\Users\6189986\Desktop\esProvaVerifica\prova-verifica\esProvaVerifica\obj\Debug\esProvaVerifica.csproj.CopyComplete
